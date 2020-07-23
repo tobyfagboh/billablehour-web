@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" name="Gigm suite" annotations="JDK"
+	parallel="tests">
+
+	<test name="AllLinks">
+		<classes>
+			<class name="com.gigm.testcases.ValidateHeaderLinks" />
+		</classes>
+	</test>
+
+	<test name="Login">
+		<classes>
+			<class name="com.gigm.testcases.ValidateLogin" />
+		</classes>
+	</test>
+
+	<test name="SignUp">
+		<classes>
+			<class name="com.gigm.testcases.ValidateSignUp" />
+		</classes>
+	</test>
+
+	<test name="Ambassador">
+		<classes>
+			<class name="com.gigm.testcases.ValidateAmbassador" />
+		</classes>
+	</test>
+	
+	
+
+</suite>

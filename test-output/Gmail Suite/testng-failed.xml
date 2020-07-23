@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Gmail Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="HomePage(failed)">
+    <classes>
+      <class name="com.gigm.testcases.CheckHeaderLinks">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="checkHeaderLinks"/>
+        </methods>
+      </class> <!-- com.gigm.testcases.CheckHeaderLinks -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->
